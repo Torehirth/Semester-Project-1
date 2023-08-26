@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <meta name="author" content="Tore Hirth" />
@@ -17,7 +17,11 @@
           <div class="mob_logo">
             <a class="mob_logo_svg" href="index.html"><img src="/Assets/Mobile header logo.svg" alt="header logo" title="home" /></a>
           </div>
-          <nav><i class="fa-solid fa-bars"></i></nav>
+          <label for="mob_nav" title="menu" class="mob_nav_label"
+            ><i class="nav_icon fa-solid fa-bars"><span hidden>#</span></i></label
+          >
+          <input type="checkbox" id="mob_nav" hidden/>
+          <div></div>
         </div>
         <div class="desk_header">
           <div class="desk_header_logo">
