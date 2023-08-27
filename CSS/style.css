@@ -182,3 +182,22 @@ header {
   max-height: 100%;
   transition: var(--main-transition);
 }
+
+
+/* ----------- Index Mobile ---------- */
+
+.index_main_img {
+  
+}
+
+.index_main_img img {
+  max-height: 205px;
+  width: 100%;
+}
+
+
+
+
+.page_content {
+  margin-inline: 30px;
+}
