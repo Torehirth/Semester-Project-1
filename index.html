@@ -15,17 +15,28 @@
       <div class="header_flex">
         <div class="mob_header">
           <div class="mob_logo">
-            <a class="mob_logo_svg" href="index.html"><img src="/Assets/Mobile header logo.svg" alt="header logo" title="home" /></a>
+            <a class="mob_logo_link" href="index.html"><img src="/Assets/Mobile header logo.svg" alt="header logo" title="home" /></a>
           </div>
-          <label for="mob_nav" title="menu" class="mob_nav_label"
-            ><i class="nav_icon fa-solid fa-bars"><span hidden>#</span></i></label
-          >
-          <input type="checkbox" id="mob_nav" hidden/>
-          <div></div>
+          <label for="mob_nav" title="menu" class="hamburger_label"
+            ><i class="hamburger_icon fa-solid fa-bars"><span hidden>#</span></i>
+          </label>
         </div>
-        <div class="desk_header">
+        <div class="nav_container">
+          <input type="checkbox" id="mob_nav" hidden />
+          <nav class="mob_nav">
+            <ul>
+              <li><a href="index.html">home</a></li>
+              <li><a href="explore.html">explore</a></li>
+              <li><a href="exibitions.html">exhibitions</a></li>
+              <li><a href="events.html">events & exhibits</a></li>
+              <li><a href="get_involved.html">get involved</a></li>
+              <li><a class="nav_colour_btn" href="visit.html">visit us</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- <div class="desk_header">
           <div class="desk_header_logo">
-            <a class="desk_header_logo_svg" href="index.html"><img src="/Assets/desktop header logo.svg" alt="header logo" title="home" /></a>
+            <a class="desk_header_logo_link" href="index.html"><img src="/Assets/desktop header logo.svg" alt="header logo" title="home" /></a>
           </div>
           <div>
             <nav class="header_upper_nav">
@@ -40,8 +51,7 @@
                 <li></li>
               </ul>
             </nav>
-          </div>
-        </div>
+          </div> -->
       </div>
     </header>
     <main></main>
