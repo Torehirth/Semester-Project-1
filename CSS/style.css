@@ -207,12 +207,10 @@ header {
 
 footer {
   background-color: var(--dark-blue);
-  float: left;
-  width: 100%;
 }
 
 .footer_container {
-  margin: 30px;
+  margin-inline: 30px;
   color: var(--white);
   padding-block: 2em;
 }
