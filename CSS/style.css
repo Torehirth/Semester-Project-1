@@ -422,3 +422,21 @@ footer {
   background-size: cover;
   border-radius: 10px;
 }
+
+.button_container {
+  display: flex;
+  justify-content: center;
+}
+
+.card_button {
+  color: var(--black);
+  padding-block: 10px;
+  padding-inline: 20px;
+  background-color: var(--orange);
+  border-radius: 30px;
+  box-shadow: var(--button-shadow);
+  font-family: "georgia", 'Times New Roman' , serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+}
