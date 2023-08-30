@@ -12,6 +12,8 @@
   src: local("Arial Regular"), url("ARIAL.woff") format("woff");
 }
 
+/* Root styles */
+
 :root {
   /* colours */
   --white: #fff;
@@ -26,7 +28,7 @@
   /* shadows */
   --button-shadow: rgba(0, 0, 0, 0.5) 2px 3px 4px;
   --heading-shadow: rgba(0, 0, 0, 0.35) 0px 2px 3px;
-  --letter-shadow: hsl(0, 0, 0, 0.25) 0px 2px 4px;
+  --letter-shadow: rgba(0, 0, 0, 0.25) 0px 2px 2px;
   --circle-shadow: hsl(0, 0, 0, 0.5) 1px 2px 4px;
 
   /* transitions */
@@ -36,6 +38,8 @@
   --small_letter_space: 1px;
   --big_letter_space: 2px;
 }
+
+/* General styles */
 
 * {
   text-transform: capitalize;
@@ -73,6 +77,7 @@ p,
 a {
   font-family: "arial", "tahoma", "sans-serif";
   font-size: 1rem;
+  letter-spacing: var(--small_letter_space);
 }
 
 /* -------------- Mobile version ------------ */
@@ -390,7 +395,7 @@ footer {
   align-items: center;
   background-color: var(--green);
   height: 53px;
-  text-shadow: var(--heading-shadow);
+  text-shadow: var(--letter-shadow);
 }
 
 .cards_flex {
@@ -404,8 +409,9 @@ footer {
   flex-direction: column;
   gap: 2em;
   background-color: #fff;
+  box-shadow: var(--button-shadow);
   border-radius: 10px;
-  padding-block: 3em;
+  padding-top: 3em;
   padding-inline: 30px;
 }
 
@@ -426,6 +432,8 @@ footer {
 .button_container {
   display: flex;
   justify-content: center;
+  position: relative;
+  bottom: -1em;
 }
 
 .card_button {
@@ -435,8 +443,21 @@ footer {
   background-color: var(--orange);
   border-radius: 30px;
   box-shadow: var(--button-shadow);
-  font-family: "georgia", 'Times New Roman' , serif;
+  font-family: "georgia", "Times New Roman", serif;
   font-size: 1.25rem;
   font-weight: bold;
   text-align: center;
+}
+
+.card_button:hover,
+.card_button:active {
+  background-color: var(--green);
+}
+
+.green_background {
+  background-color: var(--light-green);
+}
+
+.white_background {
+  background-color: var(--light-white);
 }
