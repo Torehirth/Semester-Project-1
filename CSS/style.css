@@ -53,7 +53,7 @@
 h1,
 h2,
 h3 {
-  font-family: "georgia regular", "times new roman", "serif";
+  font-family: "georgia regular", "times new roman", serif;
 }
 
 h1 {
@@ -402,6 +402,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 3em;
+  padding-bottom: 3em;
 }
 
 .card_container {
@@ -421,6 +422,7 @@ footer {
 
 .h2_headline {
   border-bottom: 1px solid var(--black);
+  width: fit-content;
 }
 
 .card_img_1 {
@@ -444,7 +446,7 @@ footer {
   border-radius: 30px;
   box-shadow: var(--button-shadow);
   font-family: "georgia", "Times New Roman", serif;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
 }
