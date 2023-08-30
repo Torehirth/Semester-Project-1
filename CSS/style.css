@@ -402,7 +402,8 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 3em;
-  padding-bottom: 3em;
+  /* padding-bottom: 3em; */
+  padding-bottom: 4em;
 }
 
 .card_container {
@@ -435,7 +436,7 @@ footer {
   display: flex;
   justify-content: center;
   position: relative;
-  bottom: -1em;
+  bottom: -20px;
 }
 
 .card_button {
@@ -445,8 +446,8 @@ footer {
   background-color: var(--orange);
   border-radius: 30px;
   box-shadow: var(--button-shadow);
-  font-family: "georgia", "Times New Roman", serif;
-  font-size: 1.5rem;
+  /* font-family: "georgia", "Times New Roman", serif; */
+  font-size: 1.25rem;
   font-weight: bold;
   text-align: center;
 }
