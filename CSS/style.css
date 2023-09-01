@@ -210,7 +210,6 @@ header {
   background-image: url(../images/milad-fakurian-PGdW_bHDbpI-unsplash\ -\ compressed.jpg);
   background-color: #9395ed; /*backup*/
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   width: 100%;
@@ -218,6 +217,12 @@ header {
   webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+}
+/* Test for IOS  */
+@media (hover: none) {
+  .background_img {
+    background-attachment: initial;
+  }
 }
 
 /* Footer Mobile*/
@@ -420,21 +425,20 @@ footer {
   flex-direction: column;
   align-items: center;
   gap: 3em;
-  /* padding-bottom: 3em; */
   padding-bottom: 4em;
 }
 
 .card_container {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   gap: 2em;
   background-color: #fff;
   box-shadow: var(--button-shadow);
   border-radius: var(--main-radius);
   padding-top: 3em;
   padding-inline: 30px;
-  max-width: 280px;
+  max-width: 290px;
+  touch-action: double-tap-zoom;
 }
 
 .h2_btm_padding {
@@ -524,7 +528,7 @@ footer {
 /* Explore mobile page */
 
 .card_img_2 {
-  max-height: 120px;
+  max-height: 130px;
   max-width: 160px;
   background-size: cover;
   border-radius: var(--main-radius);
