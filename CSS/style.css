@@ -25,6 +25,10 @@
   --light-green: hsla(140, 84%, 52%, 0.6);
   --light-white: hsla(0, 0%, 100%, 0.6);
 
+  /* Border */
+  --main-radius: 10px;
+  --button-radius: 30px;
+
   /* shadows */
   --button-shadow: rgba(0, 0, 0, 0.5) 2px 3px 4px;
   --heading-shadow: rgba(0, 0, 0, 0.35) 0px 2px 3px;
@@ -206,9 +210,14 @@ header {
   background-image: url(../images/milad-fakurian-PGdW_bHDbpI-unsplash\ -\ compressed.jpg);
   background-color: #9395ed; /*backup*/
   background-size: cover;
-  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-position: center;
   background-attachment: fixed;
   width: 100%;
+  /* IOS */
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 /* Footer Mobile*/
@@ -422,7 +431,7 @@ footer {
   gap: 2em;
   background-color: #fff;
   box-shadow: var(--button-shadow);
-  border-radius: 10px;
+  border-radius: var(--main-radius);
   padding-top: 3em;
   padding-inline: 30px;
   max-width: 280px;
@@ -440,13 +449,13 @@ footer {
 .card_img_1 {
   max-width: 100%;
   background-size: cover;
-  border-radius: 10px;
+  border-radius: var(--main-radius);
 }
 
 #gmp-map {
   max-width: 100%;
   height: 250px;
-  border-radius: 10px;
+  border-radius: var(--main-radius);
 }
 
 .map_address_link {
@@ -465,9 +474,8 @@ footer {
   padding-block: 10px;
   padding-inline: 20px;
   background-color: var(--orange);
-  border-radius: 30px;
+  border-radius: var(--button-radius);
   box-shadow: var(--button-shadow);
-  /* font-family: "georgia", "Times New Roman", serif; */
   font-size: 1.25rem;
   font-weight: bold;
   text-align: center;
@@ -514,3 +522,20 @@ footer {
 }
 
 /* Explore mobile page */
+
+.card_img_2 {
+  max-height: 120px;
+  max-width: 160px;
+  background-size: cover;
+  border-radius: var(--main-radius);
+}
+
+.card_inside_flex_horizontal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text_right {
+  text-align: right;
+}
