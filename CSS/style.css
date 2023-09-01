@@ -80,6 +80,10 @@ a {
   letter-spacing: var(--small_letter_space);
 }
 
+p {
+  text-transform: none;
+}
+
 /* -------------- Mobile version ------------ */
 
 /* Not visible */
@@ -200,9 +204,11 @@ header {
 
 .background_img {
   background-image: url(../images/milad-fakurian-PGdW_bHDbpI-unsplash\ -\ compressed.jpg);
+  background-color: #9395ed; /*backup*/
   background-size: cover;
   background-position: 50% 50%;
   background-attachment: fixed;
+  width: 100%;
 }
 
 /* Footer */
@@ -212,9 +218,11 @@ footer {
 }
 
 .footer_container {
-  margin-inline: 30px;
+  max-width: 650px;
+  margin-inline: auto;
   color: var(--white);
   padding-block: 2em;
+  padding-inline: 30px;
 }
 
 .footer_info_container {
@@ -401,6 +409,7 @@ footer {
 .cards_flex {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 3em;
   /* padding-bottom: 3em; */
   padding-bottom: 4em;
@@ -409,12 +418,14 @@ footer {
 .card_container {
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
   gap: 2em;
   background-color: #fff;
   box-shadow: var(--button-shadow);
   border-radius: 10px;
   padding-top: 3em;
   padding-inline: 30px;
+  max-width: 280px;
 }
 
 .h2_btm_padding {
@@ -437,7 +448,6 @@ footer {
   height: 250px;
   border-radius: 10px;
 }
-/* AIzaSyB-fdP7ktiUKR6AXSx-6999O7StwbOU26k */
 
 .button_container {
   display: flex;
