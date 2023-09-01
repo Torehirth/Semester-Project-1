@@ -219,11 +219,6 @@ header {
   -o-background-size: cover;
 }
 /* Test for IOS  */
-@media (hover: none) {
-  .background_img {
-    background-attachment: initial;
-  }
-}
 
 /* Footer Mobile*/
 
@@ -437,7 +432,7 @@ footer {
   border-radius: var(--main-radius);
   padding-top: 3em;
   padding-inline: 30px;
-  max-width: 290px;
+  max-width: 280px;
   touch-action: double-tap-zoom;
 }
 
