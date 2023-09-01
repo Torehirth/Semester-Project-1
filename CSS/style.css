@@ -213,6 +213,7 @@ header {
   background-position: center;
   background-attachment: fixed;
   width: 100%;
+  overflow: hidden;
   /* IOS */
   webkit-background-size: cover;
   -moz-background-size: cover;
@@ -433,7 +434,6 @@ footer {
   padding-top: 3em;
   padding-inline: 30px;
   max-width: 280px;
-  touch-action: double-tap-zoom;
 }
 
 .h2_btm_padding {
@@ -523,7 +523,7 @@ footer {
 /* Explore mobile page */
 
 .card_img_2 {
-  max-height: 130px;
+  max-height: 150px;
   max-width: 160px;
   background-size: cover;
   border-radius: var(--main-radius);
@@ -535,6 +535,17 @@ footer {
   justify-content: space-between;
 }
 
+.card_between_padding {
+  padding-right: 5px;
+}
+
+.card_bottom_padding {
+  padding-bottom: 3em;
+}
+
 .text_right {
   text-align: right;
 }
+
+/* Exhibitions Page Mobile */
+
