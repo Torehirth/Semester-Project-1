@@ -425,6 +425,7 @@ footer {
 }
 
 .card_container {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   gap: 2em;
@@ -433,7 +434,7 @@ footer {
   border-radius: var(--main-radius);
   padding-top: 3em;
   padding-inline: 30px;
-  max-width: 290px;
+  min-width: 280px;
 }
 
 .h2_btm_padding {
@@ -507,6 +508,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 1em;
+  box-sizing: border-box;
 }
 
 .card_small_gap_container a {
