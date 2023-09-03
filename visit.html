@@ -65,8 +65,9 @@
         <div class="cards_flex">
           <section class="card_container white_background card_bottom_padding">
             <div class="h2_btm_padding">
-              <div class="h2_headline">
-                <h2>location</h2>
+              <div class="h2_with_icon">
+                <span><i class="fa-solid fa-location-dot mob_footer_icon"></i></span>
+                <h2 class="underline">location</h2>
               </div>
             </div>
             <div>
@@ -106,81 +107,124 @@
               </div>
             </div>
           </section>
-          <section class="card_container green_background">
+          <section class="card_container green_background card_bottom_padding">
             <div class="h2_btm_padding">
-              <div class="h2_headline">
-                <h2>visit us</h2>
+              <div class="h2_with_icon">
+                <span><i class="fa-solid fa-phone mob_footer_icon"></i></span>
+                <h2 class="underline">location</h2>
               </div>
             </div>
-            <div><p>Are you a young person looking to learn more about science? Come on down to our museum, there’s plenty to see and do.</p></div>
             <div>
               <div class="card_small_gap_container">
-                <div><p>The museum is located at:</p></div>
-                <a
-                  href="https://www.google.com/maps/place/Slottsplassen+1,+0010+Oslo/@59.9170657,10.7251497,17z/data=!3m1!4b1!4m6!3m5!1s0x46416e7f0be2b2c5:0x8059766c6ac39464!8m2!3d59.917063!4d10.7277246!16s%2Fg%2F11hf450qt8?entry=ttu"
-                  class="map_address_link"
-                  title="Google maps"
-                  >address: slottsplassen 1, oslo</a
-                >
-                <div class="map1" id="gmp-map"></div>
-                <script
-                  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-fdP7ktiUKR6AXSx-6999O7StwbOU26k&callback=initMap&libraries=&v=weekly"
-                  async
-                  defer></script>
-                <script>
-                  function initMap() {
-                    const myLatLng = {
-                      lat: 59.91725540161133,
-                      lng: 10.727352142333984,
-                    };
-                    const map = new google.maps.Map(document.getElementById("gmp-map"), {
-                      zoom: 14,
-                      center: myLatLng,
-                      fullscreenControl: false,
-                      zoomControl: true,
-                      streetViewControl: false,
-                    });
-                    new google.maps.Marker({
-                      position: myLatLng,
-                      map,
-                      title: "My location",
-                    });
-                  }
-                </script>
+                <div class="card_inside_flex_horizontal">
+                  <p>Email:</p>
+                  <a href="mailto:info@csm.com">info@CSM.com</a>
+                </div>
+                <div class="card_inside_flex_horizontal">
+                  <p>Phone</p>
+                  <a href="tel:+4755555555">+47 55 55 55 55</a>
+                </div>
               </div>
             </div>
           </section>
-          <section class="card_container green_background">
+          <section class="card_container white_background card_bottom_padding">
             <div class="h2_btm_padding">
-              <div class="h2_headline">
-                <h2>exhibits</h2>
+              <div class="h2_with_icon">
+                <span><i class="fa-solid fa-clock mob_footer_icon"></i></span>
+                <h2 class="underline">opening hours</h2>
               </div>
             </div>
             <div>
-              <img src="/images/exhibition-Large.jpg" class="card_img_1" alt="image of big hall with different exhibits" />
+              <div class="card_small_gap_container">
+                <div class="card_inside_flex_horizontal">
+                  <p>Monday - Friday:</p>
+                  <p>09:00 - 18:00</p>
+                </div>
+                <div class="card_inside_flex_horizontal">
+                  <p>Saturday:</p>
+                  <p>09:00 - 16:00</p>
+                </div>
+                <div class="card_inside_flex_horizontal">
+                  <p>Sunday:</p>
+                  <p>Closed</p>
+                </div>
+              </div>
             </div>
-            <div>
-              <p>
-                We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have over 1000
-                different exhibits on the many varied subjects of science to explore. Many of these exhibits are designed for you to interact with and
-                play around to see science come to life. Apart from the dinosaur exhibits – they only come to life at night when everyone’s gone home!
-              </p>
-            </div>
-            <div class="button_container"><a href="exibitions.html" class="card_button" title="exhibitions">explore our exhibits</a></div>
           </section>
-          <section class="card_container white_background">
+          <section class="card_container green_background card_bottom_padding">
             <div class="h2_btm_padding">
-              <div class="h2_headline">
-                <h2>special events</h2>
+              <div class="h2_with_icon">
+                <span><i class="fa-solid fa-money-bill-1 mob_footer_icon"></i></span>
+                <h2 class="underline">admission</h2>
               </div>
             </div>
             <div>
-              <img src="/images/brian-mcgowan-5_Z3YVosrCw-unsplash (Large).jpg" class="card_img_1" alt="image of space shuttle" />
+              <div class="card_small_gap_container">
+                <div class="card_inside_flex_horizontal">
+                  <ul class="card_list_container">
+                    <li class="card_list">The entrance is free for all.</li>
+                    <li class="card_list">
+                      There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide
+                      of the museum.
+                    </li>
+                    <li class="card_list">
+                      If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="card_container white_background card_bottom_padding">
+            <div class="h2_btm_padding">
+              <div class="h2_headline">
+                <h2>accessibility</h2>
+              </div>
+            </div>
+            <div class="card_inside_flex_horizontal">
+              <div class="card_between_padding">
+                <img src="/images/stefan-spassov-k87dHceae1w-unsplash.jpg" class="card_img_2" alt="hallway with wheelchair accessibility ramp" />
+              </div>
+              <div>
+                <img src="/images/dollar-gill-iC5f0oZNTLw-unsplash.jpg" class="card_img_2" alt="person with headphones" />
+              </div>
             </div>
             <div>
-              <p>Every now and then we have special events and special exhibits. Take a look at what’s going on now.</p>
+              <p>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</p>
             </div>
-            <div class="button_container"><a href="events.html" class="card_button" title="events & exhibits">explore our events</a></div>
+          </section>
+          <section class="card_container green_background card_bottom_padding">
+            <div class="h2_btm_padding">
+              <div class="h2_headline">
+                <h2>food & beverage</h2>
+              </div>
+            </div>
+            <div class="card_inside_flex_horizontal">
+              <div class="card_between_padding">
+                <img src="/images/sincerely-media-VNsdEl1gORk-unsplash.jpg" class="card_img_2" alt="image of the museum café" />
+              </div>
+              <div class="text_right">
+                <p>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
+              </div>
+            </div>
+          </section>
+          <section class="card_container white_background card_bottom_padding">
+            <div class="h2_btm_padding">
+              <div class="h2_headline">
+                <h2>shop</h2>
+              </div>
+            </div>
+            <div class="card_inside_flex_horizontal">
+              <div class="card_between_padding">
+                <p>
+                  Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to
+                  explore science even after you’ve left the museum.
+                </p>
+              </div>
+              <div>
+                <img src="/images/roman-kraft-ChSJFIAEoRM-unsplash.jpg" class="card_img_2" alt="looking into the museum shop from outside" />
+              </div>
+            </div>
           </section>
         </div>
       </div>
