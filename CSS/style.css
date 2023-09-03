@@ -433,8 +433,8 @@ footer {
   box-shadow: var(--button-shadow);
   border-radius: var(--main-radius);
   padding-top: 3em;
-  padding-inline: 30px;
-  width: 85vw;
+  padding-inline: 20px;
+  width: 90vw;
   max-width: 600px;
 }
 
@@ -526,7 +526,7 @@ footer {
 
 .card_img_2 {
   max-height: 150px;
-  max-width: 160px;
+  max-width: 140px;
   background-size: cover;
   border-radius: var(--main-radius);
 }
@@ -558,6 +558,10 @@ footer {
 
 .underline {
   border-bottom: 1px solid var(--black);
+}
+
+.card_flex_wrap {
+  flex-wrap: wrap;
 }
 
 .card_list_container {
