@@ -571,6 +571,91 @@ footer {
 }
 
 .card_list {
-  list-style:disc;
+  list-style: disc;
   text-transform: none;
+}
+
+@media (width >= 940px) {
+
+  /* Not visible */
+  .mob_header,
+  .nav_container {
+    display: none;
+  }
+
+  /* Desktop Header */
+
+  .header_container {
+    max-width: 1040px;
+    margin-inline: auto;
+    padding-inline: 1em;
+  }
+
+  .desk_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 12.25em;
+  }
+
+  .mob_logo {
+    max-width: fit-content;
+    max-height: fit-content;
+  }
+
+  .mob_logo img {
+    width: 210px;
+    height: 130px;
+  }
+
+  .desk_nav_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 130px;
+  }
+
+  .header_upper_nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+    flex-wrap: wrap;
+  }
+
+  .header_btm_nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5em;
+    flex-wrap: wrap;
+  }
+
+  .header_upper_nav li {
+    font-size: 1rem;
+    color: var(--green);
+  }
+
+  .header_upper_nav li a,
+  .header_btm_nav li a {
+    color: var(--white);
+  }
+
+  .header_upper_nav li a {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .header_btm_nav li a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-inline: 1rem;
+    padding-block: 6px;
+  }
+
+  .header_btm_nav .nav_colour_btn {
+    background-color: var(--yellow);
+    color: var(--black);
+    border-radius: var(--button-radius);
+  }
+
+  /* Desktop Footer */
 }
