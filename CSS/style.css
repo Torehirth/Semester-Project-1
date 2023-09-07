@@ -221,12 +221,7 @@ header {
   background-attachment: fixed;
   width: 100%;
   overflow: hidden;
-  /* IOS */
-  webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
 }
-/* Test for IOS  */
 
 /* Footer Mobile*/
 
@@ -295,8 +290,8 @@ footer {
 
 .mob_horizontal_line,
 .footer_horizontal_line {
-  border: 1px thin white;
-  opacity: 0.7;
+  border: 1px solid var(--light-white);
+  opacity: 0.5;
 }
 
 .mob_social_media_container,
@@ -783,7 +778,6 @@ footer {
   .footer_nav a {
     font-size: 1.25rem;
     letter-spacing: var(--small_letter_space);
-    text-decoration: none;
   }
 
   .to_top_horizontal_container :nth-child(1) {
@@ -802,7 +796,6 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    gap: ;
   }
 
   .social_media_container {
