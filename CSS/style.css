@@ -41,6 +41,9 @@
   /* Letter spacing */
   --small_letter_space: 1px;
   --big_letter_space: 2px;
+
+  /* scale */
+  --hover: 1.05;
 }
 
 /* General styles Mobile*/
@@ -91,7 +94,11 @@ p {
 /* -------------- Mobile version ------------ */
 
 /* Not visible Mobile*/
-.desk_header {
+.desk_header,
+.footer_horizontal_line,
+.to_top_horizontal_container,
+.footer_logo,
+.copyright_container .social_media_container {
   display: none;
 }
 
@@ -506,7 +513,7 @@ footer {
 .black_icons:hover,
 .black_icons:active {
   color: var(--black);
-  scale: 1.02;
+  scale: var(--hover);
 }
 
 .card_small_gap_container {
@@ -615,6 +622,10 @@ footer {
     height: 130px;
   }
 
+  .mob_logo img:hover {
+    scale: var(--hover);
+  }
+
   .desk_nav_container {
     display: flex;
     flex-direction: column;
@@ -651,11 +662,21 @@ footer {
     font-weight: bold;
   }
 
+  .header_upper_nav li a:hover,
+  .header_upper_nav li a:active {
+    color: var(--green);
+  }
+
   .header_btm_nav li a {
     font-size: 1.5rem;
     font-weight: bold;
     padding-inline: 1rem;
     padding-block: 6px;
+  }
+
+  .header_btm_nav li a:hover,
+  .header_btm_nav li a:active {
+    color: var(--green);
   }
 
   .header_btm_nav .nav_colour_btn {
@@ -664,7 +685,20 @@ footer {
     border-radius: var(--button-radius);
   }
 
+  .header_btm_nav .nav_colour_btn:hover,
+  .header_btm_nav .nav_colour_btn:active {
+    background-color: var(--green);
+    color: var(--black);
+  }
+
   /* Desktop Footer */
+
+  .footer_horizontal_line,
+  .to_top_horizontal_container,
+  .footer_logo,
+  .copyright_container .social_media_container {
+    display: flex;
+  }
 
   .footer_container {
     display: flex;
@@ -672,6 +706,11 @@ footer {
     max-width: 1040px;
     padding-inline: 1em;
     padding-block: 3em;
+  }
+
+  .footer_logo img:hover,
+  .footer_logo img:active {
+    scale: var(--hover);
   }
 
   .mob_footer_line {
@@ -707,7 +746,8 @@ footer {
   .footer_info_container {
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    text-align: left;
+    
   }
 
   .desk_first_container {
