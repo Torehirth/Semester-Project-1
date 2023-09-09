@@ -81,7 +81,8 @@ h3 {
 }
 
 p,
-a {
+a,
+li {
   font-family: "arial", "tahoma", "sans-serif";
   font-size: 1rem;
   letter-spacing: var(--small_letter_space);
@@ -192,9 +193,20 @@ header {
   width: 100%;
 }
 
-.mob_nav ul li a:active {
+.mob_nav ul li a:active,
+.mob_nav ul li a:hover {
   background-color: var(--green);
   color: var(--black);
+}
+
+.mob_nav .active {
+  border-block: solid 1px;
+  max-width: 250px;
+}
+
+.mob_nav .active:hover {
+  max-width: 100%;
+  border: 0;
 }
 
 .mob_nav .nav_colour_btn {
@@ -209,18 +221,6 @@ header {
   z-index: 99;
   max-height: 100%;
   transition: var(--main-transition);
-}
-
-/* main */
-
-.background_img {
-  background-image: url(../images/milad-fakurian-PGdW_bHDbpI-unsplash\ -\ compressed.jpg);
-  background-color: #9395ed; /*backup*/
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  width: 100%;
-  overflow: hidden;
 }
 
 /* Footer Mobile*/
@@ -243,6 +243,11 @@ footer {
   gap: 50px;
 }
 
+.footer_info_container a,
+.footer_info_container p {
+  text-transform: capitalize;
+}
+
 .mob_footer_info_divs {
   display: flex;
   flex-direction: column;
@@ -263,7 +268,7 @@ footer {
 
 .footer_second_div_info a {
   color: var(--white);
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .footer_second_div_info a:active,
@@ -330,12 +335,16 @@ footer {
 
 .footer_nav a {
   color: var(--white);
-  text-decoration: underline;
 }
 
 .footer_nav a:hover,
 .footer_nav a:active {
   color: var(--green);
+}
+
+.footer_nav .active {
+  border-bottom: solid 1px;
+  max-width: fit-content;
 }
 
 .footer_bottom_container {
@@ -393,13 +402,25 @@ footer {
   text-align: center;
 }
 
-/* ----------- Index Mobile Page ---------- */
+/* main */
+
+.background_img {
+  background-image: url(../images/milad-fakurian-PGdW_bHDbpI-unsplash\ -\ compressed.jpg);
+  background-color: #9395ed; /*backup*/
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  overflow: hidden;
+}
 
 .main_margin {
   padding-top: 2em;
   margin-inline: auto;
   /* padding-inline: 30px; */
 }
+
+/* ----------- Index Mobile Page ---------- */
 
 .main_img {
   box-sizing: border-box;
@@ -594,6 +615,27 @@ footer {
     display: none;
   }
 
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    letter-spacing: var(--small_letter_space);
+    font-size: 1.75rem;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  p,
+  a {
+    font-family: "arial", "tahoma", "sans-serif";
+    font-size: 1.25rem;
+    letter-spacing: var(--small_letter_space);
+  }
+
   /* Desktop Header */
 
   .header_container {
@@ -640,18 +682,13 @@ footer {
   .header_btm_nav {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     gap: 0.5em;
     flex-wrap: wrap;
   }
 
   .header_upper_nav li {
-    font-size: 1rem;
     color: var(--green);
-  }
-
-  .header_upper_nav li a,
-  .header_btm_nav li a {
-    color: var(--white);
   }
 
   .header_upper_nav li a {
@@ -662,6 +699,15 @@ footer {
   .header_upper_nav li a:hover,
   .header_upper_nav li a:active {
     color: var(--green);
+  }
+
+  .header_upper_nav .active {
+    border-bottom: 1px solid;
+  }
+
+  .header_upper_nav li a,
+  .header_btm_nav li a {
+    color: var(--white);
   }
 
   .header_btm_nav li a {
@@ -686,6 +732,10 @@ footer {
   .header_btm_nav .nav_colour_btn:active {
     background-color: var(--green);
     color: var(--black);
+  }
+
+  .header_btm_nav .active {
+    border-bottom: solid 1px;
   }
 
   /* Desktop Footer */
@@ -750,9 +800,9 @@ footer {
     text-align: left;
   }
 
-  #gmp-map2 {
-    height: 100px;
-    min-width: 100px;
+  .footer_info_container a,
+  .footer_info_container p {
+    font-size: 1rem;
   }
 
   .desk_first_container {
@@ -777,7 +827,6 @@ footer {
 
   .footer_nav a {
     font-size: 1.25rem;
-    letter-spacing: var(--small_letter_space);
   }
 
   .to_top_horizontal_container :nth-child(1) {
@@ -821,5 +870,15 @@ footer {
   }
   .copyright_container :nth-child(2) {
     order: 2;
+  }
+
+  /* Desktop Index Page */
+
+  .main_img {
+    max-height: 400px;
+  }
+
+  .main_img img {
+    max-height: 400px;
   }
 }
