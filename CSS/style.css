@@ -477,6 +477,12 @@ footer {
   width: fit-content;
 }
 
+.copy_cotainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
 .card_img_1 {
   max-width: 100%;
   background-size: cover;
@@ -605,7 +611,7 @@ footer {
   text-transform: none;
 }
 
-@media (width >= 940px) {
+@media (width >= 830px) {
   /* Not visible */
   .mob_header,
   .nav_container,
@@ -880,5 +886,19 @@ footer {
 
   .main_img img {
     max-height: 400px;
+  }
+
+  .index_h1 {
+    height: 68px;
+  }
+
+  .card_container {
+    max-width: 1040px;
+  }
+
+  .h2_btm_padding {
+    display: flex;
+    justify-content: center;
+    text-align: center;
   }
 }
