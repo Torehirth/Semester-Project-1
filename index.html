@@ -74,7 +74,7 @@
                 <h2>Join us at the Community Science Museum</h2>
               </div>
             </div>
-            <div class="copy_cotainer">
+            <div class="copy_container">
               <img
                 src="/images/spacex-OHOU-5UVIYQ-unsplash (Large).jpg"
                 class="card_img_1"
@@ -92,10 +92,8 @@
                 <h2>exhibits</h2>
               </div>
             </div>
-            <div>
+            <div class="copy_container_revert">
               <img src="/images/exhibition-Large.jpg" class="card_img_1" alt="image of big hall with different exhibits" />
-            </div>
-            <div>
               <p>
                 We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have over 1000
                 different exhibits on the many varied subjects of science to explore. Many of these exhibits are designed for you to interact with and
@@ -110,10 +108,8 @@
                 <h2>special events</h2>
               </div>
             </div>
-            <div>
+            <div class="copy_container">
               <img src="/images/brian-mcgowan-5_Z3YVosrCw-unsplash (Large).jpg" class="card_img_1" alt="image of space shuttle" />
-            </div>
-            <div>
               <p>Every now and then we have special events and special exhibits. Take a look at what’s going on now.</p>
             </div>
             <div class="button_container"><a href="events.html" class="card_button" title="events & exhibits">explore our events</a></div>
@@ -124,40 +120,48 @@
                 <h2>visit us</h2>
               </div>
             </div>
-            <div><p>Are you a young person looking to learn more about science? Come on down to our museum, there’s plenty to see and do.</p></div>
-            <div>
-              <div class="card_small_gap_container">
-                <div class="map1" id="gmp-map"></div>
-                <script
-                  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-fdP7ktiUKR6AXSx-6999O7StwbOU26k&callback=initMap&libraries=&v=weekly"
-                  async
-                  defer></script>
-                <script>
-                  function initMap() {
-                    const myLatLng = {
-                      lat: 59.91725540161133,
-                      lng: 10.727352142333984,
-                    };
-                    const map = new google.maps.Map(document.getElementById("gmp-map"), {
-                      zoom: 10,
-                      center: myLatLng,
-                      fullscreenControl: false,
-                      zoomControl: true,
-                      streetViewControl: false,
-                    });
-                    new google.maps.Marker({
-                      position: myLatLng,
-                      map,
-                      title: "My location",
-                    });
-                  }
-                </script>
-                <a
-                  href="https://www.google.com/maps/place/Slottsplassen+1,+0010+Oslo/@59.9170657,10.7251497,17z/data=!3m1!4b1!4m6!3m5!1s0x46416e7f0be2b2c5:0x8059766c6ac39464!8m2!3d59.917063!4d10.7277246!16s%2Fg%2F11hf450qt8?entry=ttu"
-                  class="map_address_link"
-                  title="Google maps"
-                  >address: slottsplassen 1, oslo</a
-                >
+            <div class="copy_container">
+              <p>Are you a young person looking to learn more about science? Come on down to our museum, there’s plenty to see and do.</p>
+              <div>
+                <div class="map_container">
+                  <a
+                    href="https://www.google.com/maps/place/Slottsplassen+1,+0010+Oslo/@59.9170657,10.7251497,17z/data=!3m1!4b1!4m6!3m5!1s0x46416e7f0be2b2c5:0x8059766c6ac39464!8m2!3d59.917063!4d10.7277246!16s%2Fg%2F11hf450qt8?entry=ttu"
+                    class="map_address"
+                    title="Google maps"
+                    >address: slottsplassen 1, oslo</a
+                  >
+                  <div class="map1" id="gmp-map"></div>
+                  <script
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-fdP7ktiUKR6AXSx-6999O7StwbOU26k&callback=initMap&libraries=&v=weekly"
+                    async
+                    defer></script>
+                  <script>
+                    function initMap() {
+                      const myLatLng = {
+                        lat: 59.91725540161133,
+                        lng: 10.727352142333984,
+                      };
+                      const map = new google.maps.Map(document.getElementById("gmp-map"), {
+                        zoom: 10,
+                        center: myLatLng,
+                        fullscreenControl: false,
+                        zoomControl: true,
+                        streetViewControl: false,
+                      });
+                      new google.maps.Marker({
+                        position: myLatLng,
+                        map,
+                        title: "My location",
+                      });
+                    }
+                  </script>
+                  <a
+                    href="https://www.google.com/maps/place/Slottsplassen+1,+0010+Oslo/@59.9170657,10.7251497,17z/data=!3m1!4b1!4m6!3m5!1s0x46416e7f0be2b2c5:0x8059766c6ac39464!8m2!3d59.917063!4d10.7277246!16s%2Fg%2F11hf450qt8?entry=ttu"
+                    class="map_address_link_mob"
+                    title="Google maps"
+                    >address: slottsplassen 1, oslo</a
+                  >
+                </div>
               </div>
             </div>
             <div class="card_small_gap_container">
