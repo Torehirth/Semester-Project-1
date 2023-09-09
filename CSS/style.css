@@ -458,18 +458,17 @@ footer {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  gap: 2em;
+  /* gap: 2em; */
   background-color: #fff;
   box-shadow: var(--button-shadow);
   border-radius: var(--main-radius);
-  padding-top: 3em;
-  padding-inline: 20px;
+  padding: 3em 20px 0 20px;
   width: 90vw;
   max-width: 600px;
 }
 
 .h2_btm_padding {
-  padding-bottom: 1em;
+  padding-bottom: 3em;
 }
 
 .h2_headline {
@@ -894,11 +893,39 @@ footer {
 
   .card_container {
     max-width: 1040px;
+    align-items: center;
+    padding-inline: initial;
   }
 
   .h2_btm_padding {
     display: flex;
     justify-content: center;
     text-align: center;
+  }
+
+  .copy_cotainer {
+    flex-direction: row;
+    max-width: 885px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+  }
+
+  .copy_cotainer p {
+    text-align: center;
+  }
+
+  .card_img_1 {
+    max-height: 300px;
+  }
+
+  .button_container {
+    bottom: -27px;
+  }
+
+  .card_button {
+    font-size: 1.75rem;
+    padding-block: 14px;
+    padding-inline: 32px;
   }
 }
