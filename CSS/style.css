@@ -111,7 +111,7 @@ header {
 .header_container {
   margin-inline: auto;
   padding-inline: 30px;
-  max-width: 650px;
+  max-width: 800px;
 }
 
 .mob_header {
@@ -230,7 +230,7 @@ footer {
 }
 
 .footer_container {
-  max-width: 650px;
+  max-width: 800px;
   margin-inline: auto;
   color: var(--white);
   padding-block: 2em;
@@ -464,7 +464,7 @@ footer {
   border-radius: var(--main-radius);
   padding: 3em 20px 0 20px;
   width: 90vw;
-  max-width: 600px;
+  max-width: 780px;
 }
 
 .h2_btm_padding {
@@ -909,6 +909,7 @@ footer {
     align-items: center;
     align-content: center;
     justify-content: space-between;
+    padding-inline: 20px;
   }
 
   .copy_cotainer p {
