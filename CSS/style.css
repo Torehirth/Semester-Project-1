@@ -940,6 +940,9 @@ footer {
     padding: 0 20px 2em 20px;
   }
 
+  .card_inside_flex_horizontal_desktop p,
+  .card_inside_flex_horizontal_desktop_revert p,
+  .card_inside_flex_horizontal p,
   .copy_container p,
   .copy_container_revert p {
     text-align: center;
