@@ -406,7 +406,7 @@ footer {
 /* main */
 
 .background_img {
-  background-image: url(../images/milad-fakurian-PGdW_bHDbpI-unsplash\ -\ compressed.jpg);
+  background-image: url(../images/milad-fakurian-PGdW_bHDbpI-unsplash.jpg);
   background-color: #9395ed; /*backup*/
   background-size: cover;
   background-position: center;
@@ -903,6 +903,10 @@ footer {
     max-height: 400px;
   }
 
+  .index_img img {
+    object-position: 50% 53%;
+  }
+
   .index_h1 {
     height: 68px;
   }
@@ -1016,5 +1020,27 @@ footer {
     font-size: 1rem;
     text-decoration: underline;
     color: var(--black);
+  }
+
+  /* Desktop Explore Page */
+
+  .img_explore img {
+    object-position: 50% 30%;
+  }
+
+  /* Desktop Events Page */
+
+  .events_img img {
+    object-position: 50% 52%;
+  }
+  /* Desktop Get Involved Page */
+
+  .involved_img img {
+    object-position: 50% 45%;
+  }
+  /* Desktop Visit Us Page */
+
+  .visit_img img {
+    object-position: 50% 35%;
   }
 }
