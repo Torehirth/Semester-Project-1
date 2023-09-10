@@ -969,6 +969,7 @@ footer {
 
   #gmp-map {
     width: 50vw;
+    max-width: 600px;
     height: 250px;
   }
 
