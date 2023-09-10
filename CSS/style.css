@@ -580,6 +580,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 2em;
 }
 
 .card_between_padding {
@@ -588,6 +589,10 @@ footer {
 
 .card_bottom_padding {
   padding-bottom: 3em;
+}
+
+.card_inside_btm_padding {
+  padding-bottom: 2em;
 }
 
 .text_right {
@@ -918,14 +923,21 @@ footer {
     text-align: center;
   }
 
+  .card_inside_flex_horizontal_desktop,
+  .card_inside_flex_horizontal_desktop_revert,
+  .card_inside_flex_horizontal,
   .copy_container,
   .copy_container_revert {
+    display: flex;
     flex-direction: row;
     max-width: 885px;
+    width: 100%;
+    gap: 1em;
     align-items: center;
     align-content: center;
     justify-content: space-between;
-    padding-inline: 20px;
+    /* padding-inline: 20px; */
+    padding: 0 20px 2em 20px;
   }
 
   .copy_container p,
@@ -937,9 +949,30 @@ footer {
     order: 2;
   }
 
+  .card_inside_flex_horizontal_desktop_revert :first-child {
+    order: 2;
+  }
+
+  .zero_btm_padding {
+    padding-bottom: 0;
+  }
+
+  .card_between_padding {
+    padding: 0;
+  }
+
+  .card_inside_btm_padding {
+    /* padding-bottom: 0; */
+  }
+
   .card_img_1 {
     max-height: 400px;
     max-width: 450px;
+  }
+
+  .card_img_2 {
+    max-width: 450px;
+    max-height: 250px;
   }
 
   .button_container {
@@ -950,11 +983,6 @@ footer {
     font-size: 1.75rem;
     padding-block: 14px;
     padding-inline: 32px;
-  }
-
-  .copy_container {
-    display: flex;
-    gap: 1em;
   }
 
   .map_container {
