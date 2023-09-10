@@ -595,6 +595,10 @@ footer {
   padding-bottom: 2em;
 }
 
+.card_inside_mobile_zero_padding {
+  padding-bottom: 0;
+}
+
 .text_right {
   text-align: right;
 }
@@ -966,10 +970,6 @@ footer {
 
   .card_between_padding {
     padding: 0;
-  }
-
-  .card_inside_btm_padding {
-    /* padding-bottom: 0; */
   }
 
   .card_img_1 {
