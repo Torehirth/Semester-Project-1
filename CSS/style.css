@@ -972,6 +972,10 @@ footer {
     padding: 0;
   }
 
+  .desk_obj_btm_padding {
+    padding-bottom: 2em;
+  }
+
   .card_img_1 {
     max-height: 400px;
     max-width: 450px;
