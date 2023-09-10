@@ -973,8 +973,10 @@ footer {
   }
 
   .desk_obj_btm_padding {
-    padding-bottom: 2em;
+    padding-bottom: 1em;
   }
+
+  /* card_inside_btm_padding */
 
   .card_img_1 {
     max-height: 400px;
