@@ -481,11 +481,18 @@ footer {
 .copy_container_revert {
   display: flex;
   flex-direction: column;
-  gap: 2em;
+  gap: 1em;
 }
 
 .card_img_1 {
   max-width: 100%;
+  background-size: cover;
+  border-radius: var(--main-radius);
+}
+
+.card_img_horizontal {
+  max-width: 100%;
+  max-height: 400px;
   background-size: cover;
   border-radius: var(--main-radius);
 }
@@ -601,6 +608,16 @@ footer {
 
 .text_right {
   text-align: right;
+}
+
+/* Events & Exhibits Page Mobile */
+
+.card_inside_flex_vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
 }
 
 /* Visit Us Page Mobile */
@@ -977,6 +994,7 @@ footer {
   }
 
   /* card_inside_btm_padding */
+  /* card_inside_mobile_zero_padding  */
 
   .card_img_1 {
     max-height: 400px;
@@ -1039,6 +1057,13 @@ footer {
   .events_img img {
     object-position: 50% 52%;
   }
+
+  .card_inside_flex_vertical {
+    max-width: 885px;
+    width: 100%;
+    text-align: center;
+  }
+
   /* Desktop Get Involved Page */
 
   .involved_img img {
