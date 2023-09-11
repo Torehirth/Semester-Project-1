@@ -607,6 +607,7 @@ footer {
 }
 
 .card_inside_flex_horizontal {
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -976,6 +977,7 @@ footer {
   .card_inside_flex_horizontal,
   .copy_container,
   .copy_container_revert {
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     max-width: 885px;
@@ -984,7 +986,6 @@ footer {
     align-items: center;
     align-content: center;
     justify-content: space-between;
-    /* padding-inline: 20px; */
     padding: 0 20px 2em 20px;
   }
 
@@ -1015,9 +1016,6 @@ footer {
   .desk_obj_btm_padding {
     padding-bottom: 1em;
   }
-
-  /* card_inside_btm_padding */
-  /* card_inside_mobile_zero_padding  */
 
   .card_img_1 {
     max-height: 400px;
@@ -1107,5 +1105,22 @@ footer {
 
   .visit_img img {
     object-position: 50% 35%;
+  }
+
+  .card_flex_wrap {
+    gap: 6em;
+  }
+
+  .desk_info_cont {
+    flex-direction: column;
+  }
+
+  .card_list_container {
+    gap: 2rem;
+    width: 75vw;
+  }
+
+  .card_list {
+    font-size: 1.25rem;
   }
 }
