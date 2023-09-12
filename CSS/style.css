@@ -411,12 +411,6 @@ footer {
   overflow: hidden;
 }
 
-@supports (-webkit-overflow-scrolling: touch) {
-  .background_img {
-    background-attachment: scroll;
-  }
-}
-
 .main_margin {
   padding-top: 2em;
   margin-inline: auto;
