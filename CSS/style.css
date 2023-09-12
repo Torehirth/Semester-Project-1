@@ -409,7 +409,7 @@ footer {
   background-position: center;
   background-attachment: fixed;
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .ios-background-fixed {
