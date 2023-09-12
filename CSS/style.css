@@ -408,13 +408,7 @@ footer {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  width: 100%;
-  /* overflow: hidden; */
-}
-
-.ios-background-fixed {
-  background-attachment: scroll;
-  position: relative;
+  overflow: hidden;
 }
 
 .main_margin {
