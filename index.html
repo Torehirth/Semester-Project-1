@@ -62,15 +62,6 @@
     <main>
       <section>
         <figure class="main_img index_img">
-          <script>
-            window.addEventListener("load", function () {
-              // Check if the user agent is iOS const isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
-              if (isiOS) {
-                // Add a class to the container for iOS devices
-                document.querySelector(".background_img").classList.add("ios-background_img-fixed");
-              }
-            });
-          </script>
           <img src="images/scott-webb-Large.jpg" alt="big image of colorful sign saying museum" />
         </figure>
         <h1 class="index_h1">play and learn</h1>
@@ -292,5 +283,14 @@
         </div>
       </div>
     </footer>
+    <script>
+      window.addEventListener("load", function () {
+        // Check if the user agent is iOS const isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+        if (isiOS) {
+          // Add a class to the container for iOS devices
+          document.querySelector(".background_img").classList.add("ios-background_img-fixed");
+        }
+      });
+    </script>
   </body>
 </html>
