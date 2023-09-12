@@ -9,26 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-// Google Maps Home page
-function initMap() {
-  const myLatLng = {
-    lat: 59.91725540161133,
-    lng: 10.727352142333984,
-  };
-  const map = new google.maps.Map(document.getElementById("gmp-map"), {
-    zoom: 10,
-    center: myLatLng,
-    fullscreenControl: false,
-    zoomControl: true,
-    streetViewControl: false,
-  });
-  new google.maps.Marker({
-    position: myLatLng,
-    map,
-    title: "My location",
-  });
-}
-
 // Google Maps Visit Us page
 function initMap() {
   const myLatLng = {
