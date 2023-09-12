@@ -411,7 +411,7 @@ footer {
   overflow: hidden;
 }
 
-@supports (-webkit-touch-callout: inherit) {
+@supports (-webkit-overflow-scrolling: touch) {
   .background_img {
     background-attachment: scroll;
   }
