@@ -415,8 +415,6 @@ footer {
 .ios-background-fixed {
   background-attachment: scroll;
   position: relative;
-  background-size: cover;
-  background-position: center;
 }
 
 .main_margin {
