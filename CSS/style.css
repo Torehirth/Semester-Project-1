@@ -411,6 +411,12 @@ footer {
   overflow: hidden;
 }
 
+@supports (-webkit-touch-callout: inherit) {
+  .background_img {
+    background-attachment: scroll;
+  }
+}
+
 .main_margin {
   padding-top: 2em;
   margin-inline: auto;
