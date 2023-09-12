@@ -412,6 +412,11 @@ footer {
   overflow: hidden;
 }
 
+.ios-background-img_fixed {
+  background-attachment: scroll;
+  position: relative;
+}
+
 .main_margin {
   padding-top: 2em;
   margin-inline: auto;
