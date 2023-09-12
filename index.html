@@ -8,6 +8,17 @@
     <meta name="keywords" content="museum, children, kids, science, exhibits, exhibitions, learn, play, explore" />
     <meta name="description" content="community science museum - play, learn and explore our many different exhibitions" />
     <script src="https://kit.fontawesome.com/c4115ef720.js" crossorigin="anonymous"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Check if the user agent is iOS
+        const isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+
+        if (isiOS) {
+          // Add a class to the container for iOS devices
+          document.querySelector(".container").classList.add("ios-background-fixed");
+        }
+      });
+    </script>
     <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script> -->
     <title>Community Science Museum | Home</title>
   </head>
@@ -285,16 +296,5 @@
           </div>
         </div>
       </footer>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        // Check if the user agent is iOS
-        const isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
-
-        if (isiOS) {
-          // Add a class to the container for iOS devices
-          document.querySelector(".container").classList.add("ios-background-fixed");
-        }
-      });
-    </script>
   </body>
 </html>
