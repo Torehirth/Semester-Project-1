@@ -183,9 +183,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Georgia";
+  font-family: "arial regular", sans-serif;
   color: var(--white);
-  font-size: var(--text_mob);
   font-weight: bold;
   letter-spacing: var(--small_letter_space);
   height: 100%;
