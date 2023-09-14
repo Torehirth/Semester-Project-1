@@ -209,6 +209,7 @@ header {
 .mob_nav .nav_colour_btn {
   color: black;
   background-color: var(--yellow);
+  font-weight: bold;
 }
 
 .nav_container #mob_nav:checked ~ .mob_nav {
