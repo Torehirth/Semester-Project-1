@@ -932,6 +932,12 @@ footer {
     order: 2;
   }
 
+  /* Main desktop */
+
+  .main_margin {
+    padding-top: 3em;
+  }
+
   /* Desktop Index Page */
 
   .main_img {
