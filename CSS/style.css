@@ -185,7 +185,6 @@ header {
   align-items: center;
   font-family: "arial regular", sans-serif;
   color: var(--white);
-  font-weight: bold;
   letter-spacing: var(--big_letter_space);
   height: 100%;
   width: 100%;
