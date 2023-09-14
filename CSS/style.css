@@ -206,10 +206,10 @@ header {
   border: 0;
 }
 
-.mob_nav .nav_colour_btn {
+.mob_nav ul li .nav_colour_btn {
   color: black;
-  background-color: var(--yellow);
   font-weight: bold;
+  background-color: var(--yellow);
 }
 
 .nav_container #mob_nav:checked ~ .mob_nav {
