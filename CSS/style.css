@@ -30,8 +30,7 @@
   --button-radius: 30px;
 
   /* shadows */
-  --button-shadow: rgba(0, 0, 0, 0.5) 2px 3px 4px;
-  --circle-shadow: hsl(0, 0, 0, 0.5) 1px 2px 4px;
+  --button-shadow: rgba(0, 0, 0, 0.5) 2px 3px 4px 0;
 
   /* transitions */
   --main-transition: all ease-in-out 0.3s;
@@ -566,14 +565,13 @@ footer {
 .black_icons:hover,
 .black_icons:active {
   color: var(--black);
-  scale: 1.05;
+  transform: scale(1.05);
 }
 
 .card_small_gap_container {
   display: flex;
   flex-direction: column;
   gap: 1em;
-  /* padding-top: 2em; */
 }
 
 .card_small_gap_container a {
@@ -718,7 +716,7 @@ footer {
   }
 
   .mob_logo img:hover {
-    scale: 1.05;
+    transform: scale(1.05);
   }
 
   .desk_nav_container {
@@ -813,7 +811,7 @@ footer {
 
   .footer_logo img:hover,
   .footer_logo img:active {
-    scale: 1.05;
+    transform: scale(1.05);
   }
 
   .to_top p {
