@@ -1,4 +1,10 @@
-# Semester Project 1 by Tore M. Hirth
+![Screenshot 2023-09-15 134351](https://github.com/Torehirth/Rainy-Days/assets/116200852/30d8849b-caf9-4ae5-a206-ced8bb59f5fe)
 
-## Community Science Museum website
-### Link to Netlify: https://tmh-semester-project-1.netlify.app/
+# Community Science Museum
+
+## Semester Project 1
+Creating a science museum website for children and families.
+
+Link to website (Netlify): https://tmh-semester-project-1.netlify.app/
+
+### by Tore M. Hirth
