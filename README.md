@@ -5,6 +5,6 @@
 ## Semester Project 1
 Creating a science museum website for children and families.
 
-### by Tore M. Hirth
-
 Link to website (Netlify): https://tmh-semester-project-1.netlify.app/
+
+### by Tore M. Hirth
