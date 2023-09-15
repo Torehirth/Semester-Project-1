@@ -39,9 +39,6 @@
   /* Letter spacing */
   --small_letter_space: 1px;
   --big_letter_space: 2px;
-
-  /* scale */
-  --hover: 1.05;
 }
 
 /* General styles */
@@ -569,7 +566,7 @@ footer {
 .black_icons:hover,
 .black_icons:active {
   color: var(--black);
-  scale: var(--hover);
+  scale: 1.05;
 }
 
 .card_small_gap_container {
@@ -721,7 +718,7 @@ footer {
   }
 
   .mob_logo img:hover {
-    scale: var(--hover);
+    scale: 1.05;
   }
 
   .desk_nav_container {
@@ -816,7 +813,7 @@ footer {
 
   .footer_logo img:hover,
   .footer_logo img:active {
-    scale: var(--hover);
+    scale: 1.05;
   }
 
   .to_top p {
