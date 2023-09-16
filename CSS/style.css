@@ -398,12 +398,14 @@ footer {
 /* main */
 
 .background_img {
-  background-image: url(../images/milad-fakurian-PGdW_bHDbpI-unsplash.jpg);
-  background-color: #9395ed; /*backup*/
+  background: url(../images/milad-fakurian-PGdW_bHDbpI-unsplash.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   overflow: hidden;
+  /* backup */
+  background-color: linear-gradient(275deg, rgba(233, 239, 226, 0.24) 0%, transparent 61.461%, rgba(207, 233, 198, 0.6) 100%),
+    conic-gradient(from 254deg at 32% 68%, #aafbfa 0%, #f1b6ca 60.832%, #dbc6f7 60.832%, #a8a6e2 100%) 41% 74%/106% 120%;
 }
 
 .main_margin {
