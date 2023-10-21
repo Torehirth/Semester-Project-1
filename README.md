@@ -40,7 +40,7 @@ Based on the first-semester curriculum, the semester project should reflect the 
 Languages and tools:
 
 <p align="left">
-  <a href="https://skillicons.dev">
+  <a href="https://github.com/Torehirth">
     <img src="https://skillicons.dev/icons?i=figma,git,github,vscode,html,css" />
   </a>
 </p>
