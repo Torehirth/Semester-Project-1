@@ -3,7 +3,7 @@
 ### Semester Project 1
 This is my semester project from the first year on my front-end study.
 
-![Screenshot 2023-09-15 134351](https://github.com/Torehirth/Rainy-Days/assets/116200852/30d8849b-caf9-4ae5-a206-ced8bb59f5fe)
+<p align="left"><img height="350px" src="https://github.com/user-attachments/assets/68e93254-b5e4-48ac-8c5c-0c70d74f47c1" alt="Website" /></p>
 
 ---
 
