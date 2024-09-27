@@ -1,6 +1,6 @@
 # Museum website project
 
-<p align="center"><img height="350px" src="https://github.com/user-attachments/assets/68e93254-b5e4-48ac-8c5c-0c70d74f47c1" alt="Website" /></p>
+<p align="left"><img height="350px" src="https://github.com/user-attachments/assets/68e93254-b5e4-48ac-8c5c-0c70d74f47c1" alt="Website" /></p>
 
 * Take a look at the website [here](https://tmh-semester-project-1.netlify.app/)
 
