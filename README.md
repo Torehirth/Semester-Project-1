@@ -1,46 +1,53 @@
-# Community Science Museum
-
-### Semester Project 1
-This is my semester project from the first year on my front-end study.
+# Museum website project
 
 <p align="left"><img height="350px" src="https://github.com/user-attachments/assets/68e93254-b5e4-48ac-8c5c-0c70d74f47c1" alt="Website" /></p>
 
----
+* Take a look at the website [here](https://tmh-semester-project-1.netlify.app/)
 
-**Link to website (Netlify):** **https://tmh-semester-project-1.netlify.app/**
+## Description
+This is my semester project for the first semester of Front-End Development.
+The website is responsive and engaging. It was designed for a children's museum, targeting kids aged 7-15 and families. It features a playful yet simple design, optimized for fast loading and accessibility (WCAG compliance). The website includes six pages: Home, Explore, Exhibitions, Events, Involvement, and Visit. Built using HTML and CSS (Flexbox), the project emphasizes clean code, SEO optimization, and a mobile-first approach.
 
----
+This project taught me valuable lessons in project management, accessibility, and responsive design. I faced challenges, particularly with time constraints, but learned to prioritize effectively and focus on delivering a product that met the project’s core requirements.
 
-### Assignment brief:
+## Features
+- 6 Pages: Home, Explore, Exhibitions, Events, Involvement, Visit
+- Responsive Design: Optimized for mobile and desktop
+- WCAG Compliance: Follows accessibility principles for color contrast, hierarchy, and navigation
+- SEO Optimized: Meta tags, alt text for images, and content strategy in place
+- Fast Loading: All images optimized to be under 200kb
+- Google Maps Integration: Interactive map on the Visit page
 
-An interactive science museum called the Community Science Museum is opening in your town/city. Its core target audience is primary and middle school children (ages 7-15) and families with young children. The museum wants an informative, appealing website to attract middle school pupils and their parents. The site should appeal to youngsters without pandering; it should take for granted that the audience is curious and intelligent. The website should be informative and engaging, encouraging viewers to visit the museum. The website should be responsive and easy to use on various devices.
+## Technologies used
+- Figma
+- HTML5
+- CSS3 
+- Gantt (project planning)
+- GitHub for version control
+- Netlify for deployment
 
----
+## Getting Started
 
-### Project description:
+### Installing
 
-Based on the first-semester curriculum, the semester project should reflect the student’s creative and technical knowledge and skills. This includes design principles, project management, communication technology, and development with HTML/CSS.
+1. Clone the repository:
 
----
+```bash
+git clone  https://github.com/torehirth/semester-project-1.git
+```
 
-### Requirements:
+### Running
 
-- The site must have a design that appeals to the target audience.
-- The site must have at least 4-6 pages.
-- Compositional principles, typography, and colour schemes must be considered.
-- Your HTML should be semantic and neatly indented.
-- The site should use external CSS style sheets which follow the DRY principle.
-- The site should download quickly and not be overly “heavy”. Images should be at most 200kb.
-- The site should consider WCAG principles, especially regarding hierarchy, navigation, and colour usage.
-- The site should be responsive, attractive, and easy to use on various devices.
-- The site should show consideration for content strategy and SEO. Consider your use of meta tags and alt text
+To run the app locally, run the following commands:
 
----
+```bash
+npm run start
+```
 
-Languages and tools:
 
-<p align="left">
-  <a href="https://github.com/Torehirth">
-    <img src="https://skillicons.dev/icons?i=figma,git,github,vscode,html,css" />
-  </a>
-</p>
+## Contact
+
+[My LinkedIn profile](https://www.linkedin.com/in/torehirth) | [My GitHub profile](https://github.com/Torehirth)
+
+<p align="left" ><img src="https://github-readme-tech-stack.vercel.app/api/cards?lineCount=1&width=900&bg=%230D1117&badge=%23161B22&border=%2321262D&titleColor=%2358A6FF&line1=git%2CGit%2C40F8FF%3Bgithub%2CGitHub%2C40F8FF%3Bvisualstudiocode%2CVS+Code%2C40F8FF%3Bfigma%2CFigma%2C40F8FF%3Bhtml5%2CHTML%2C40F8FF%3Bcss3%2CCSS%2C40F8FF%3Bjavascript%2CJavaScript%2C40F8FF%3B%2C40F8FF%3Bsass%2CSASS%2C40F8FF%3B" alt="My Tech Stack" /> </p>
+
