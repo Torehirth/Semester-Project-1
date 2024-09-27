@@ -22,7 +22,7 @@ This project taught me valuable lessons in project management, accessibility, an
 - Fast Loading: All images optimized to be under 200kb
 - Google Maps Integration: Interactive map on the Visit page
 
-- </br>
+</br>
 
 ## Technologies used
 - Figma
